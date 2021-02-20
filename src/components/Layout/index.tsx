@@ -6,6 +6,8 @@ import ChannelList from '../ChannelList';
 import UserInfo from '../UserInfo';
 
 import { Grid } from './styles';
+import UserList from '../UserList';
+import ChannelData from '../ChannelData';
 
 
 const Layout: React.FC = () => {
@@ -17,6 +19,8 @@ const Layout: React.FC = () => {
             <ChannelInfo />
             <ChannelList/>
             <UserInfo/>
+            <ChannelData/>
+            <UserList/>
         </Grid>
     );
 }

@@ -43,28 +43,6 @@ export const UserData = styled.div`
         color: var(--gray);
         font-size:13px;
     }
-
-    &::after{
-        background-color: var(--notification);
-        width: auto;
-        height: 16px;
-
-        padding:0 4px;
-        position: absolute;
-
-        bottom: -4px;
-        right: -4px;
-
-        border-radius: 12px;
-        border: 4px solid var(--quaternary);
-
-        text-align: right;
-        font-size: 13px;
-        font-weight: bold;
-        color: var(--white);
-
-        content:'-';
-    }
 `;
 
 export const Icons = styled.div`
