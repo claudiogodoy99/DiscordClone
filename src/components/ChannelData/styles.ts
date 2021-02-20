@@ -9,6 +9,8 @@ export const Container = styled.div`
 
     justify-content: space-between;
     background-color: var(--primary);
+
+  
 `;
 
 export const Messages = styled.div`
@@ -27,11 +29,12 @@ export const Messages = styled.div`
     ::-webkit-scrollbar-thumb{
         background-color: var(--tertiary);
         border-radius: 4px;
-    }
+    }   
 
     ::-webkit-scrollbar-track{
         background-color: var(--secondary);
     }
+    
 
 `;
 
@@ -58,7 +61,7 @@ export const Input = styled.input`
 
     ~ svg {
         position: relative;
-        top: -50%;
+        top: -34px;
         left: 14px;
         transition: 180ms ease-in-out;
     }
